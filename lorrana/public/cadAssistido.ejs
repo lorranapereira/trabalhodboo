@@ -1,0 +1,40 @@
+
+    <div class="container">
+
+      <form>
+        <div class="form-group">
+          <label for="nome">Série</label>
+          <input type="text" class="form-control"
+                 id="nome" name="nome"
+                 placeholder="Nome da série"
+                 required> <!-- pattern="[a-zA-Z]{5,20}" REGEX -->
+        </div>
+        <div class="form-group">
+          <label for="tempor">Temporada</label>
+          <input type="number" class="form-control"
+                 id="tempor" name="tempor" required
+                 placeholder="última temporada assistida">
+        </div>
+        <div class="form-group">
+          <label for="ep">Episódio</label>
+          <input type="number" class="form-control"
+                 id="ep" name="ep" required
+                 placeholder="Último episódio asssistido da série">
+        </div>
+        <div class="form-group">
+          <label for="avaliacao">Avaliação</label>
+          <input type="text" class="form-control"
+                 id="avaliacao" name="avaliacao" required
+                 placeholder="Avaliação">
+        </div>
+        <button type="submit" class="btn btn-default">
+          Salvar
+        </button>
+      </form>
+    </div>
+    <script src="js/localStorage.js"></script>
+    <script src="js/salvo.js">
+
+    </script>
+    <script src="js/objeto.js"></script>
+

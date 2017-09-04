@@ -1,0 +1,33 @@
+    <div class="container">
+
+      <form>
+        <div class="form-group">
+          <label for="serie">Série</label>
+          <input type="text" class="form-control"
+                 id="serie" name="serie"
+                 placeholder="Nome da série"
+                 required> <!-- pattern="[a-zA-Z]{5,20}" REGEX -->
+        </div>
+        <div class="form-group">
+          <label for="sinopse">Sinopse</label>
+          <input type="text" class="form-control"
+                 id="sinopse" name="sinopse"
+                 placeholder="Sinopse da série"
+                 required> <!-- pattern="[a-zA-Z]{5,20}" REGEX -->
+        </div>
+        <div class="form-group">
+          <label for="temporada">Temporada</label>
+          <input type="number" class="form-control"
+                 id="temporada" name="temporada" required
+                 placeholder="temporadas da série">
+        </div>
+        <button type="button" onclick="clicou()">
+          ok
+        </button>
+        <br/>
+      </form>
+    </div>
+    <script  src="js/localStorage.js"></script>
+    <script  src="js/local.js">
+
+    </script>
